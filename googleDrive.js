@@ -1,4 +1,4 @@
-const credentials = require('./config.json');
+const credentials = require('./config.json'); // Google cloud credential file
 const fs = require('fs')
 const request = require('request')
 const { google } = require('googleapis')
