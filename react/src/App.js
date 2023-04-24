@@ -3,8 +3,8 @@ import GoogleDrivePicker from 'react-google-drive-picker';
 import DropBoxPicker from 'react-dropbox-chooser';
 import Download from './api'
 
-const GOOGLE_CLIENT_ID = '389475008432-h9ufj56ho4tarvf97c4hq58cb9cb5b6i.apps.googleusercontent.com'
-const GOOGLE_API_KEY = 'AIzaSyBGtcze2FqaFYVzxSXGqsWORmzYxD7y3-U'
+const GOOGLE_CLIENT_ID = '<Google cloud project client ID>'
+const GOOGLE_API_KEY = '<Google cloud project API Key>'
 function App() {
 
   const [openPicker] = GoogleDrivePicker();

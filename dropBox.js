@@ -3,7 +3,7 @@ const fs = require('fs');
 const axios = require('axios')
 
 // get the user's auth token from the dropbox autherization
-const ACCESS_TOKEN = 'sl.BdEOW8fjC8cT0Oom2X1UP0gVOA5PrjWP_CAJh3pxRlrKBGPPfzm1uMRVnQkmo5pwD3O0JSBqZiZdS0T7zwa4_3j1u0vLib5t9gAEuzK_hTbmn7D0HUuhv1uRmvuAvCIHLq-D3Rg';
+const ACCESS_TOKEN = '<user dropbox auth token>';
 
 const DOWNLOAD_OPTIONS = {
     url: `https://content.dropboxapi.com/2/files/download`,

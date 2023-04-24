@@ -4,7 +4,7 @@ const request = require('request')
 const { google } = require('googleapis')
 
 // get this token: user's google oauth token from frontend 
-const ACCESS_TOKEN = 'ya29.a0Ael9sCMAB4_m_7BD0Jr4Ojmog_2Zpg1pY2-r0ztZIlj-i1QvMKiAYKLkGduCbLaZCg97mbjMSPLXK9POPQEpkTLe-R9Uj6poWlHmVoao0KAMCnN5BHRb10kOkpnRVQYwyYqigN-Ii7kCqbtx-ApNHX8V-0XeiwaCgYKAeISARMSFQF4udJh0dYZ9irLHK0qM6KJSKQiMw0165'
+const ACCESS_TOKEN = '<user google auth token>'
 
 module.exports = {
     downloadFromGoogle: (files) => {
