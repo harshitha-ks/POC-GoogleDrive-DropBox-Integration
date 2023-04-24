@@ -5,6 +5,6 @@ POC for GoogleDrive and DropBox Integration and download the files in nodejs
 
 To start the app run : 
 
-# npm install
+npm install
 
-# node index.js in root directory
+node index.js in root directory
