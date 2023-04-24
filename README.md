@@ -2,3 +2,9 @@
 POC for GoogleDrive and DropBox Integration and download the files in nodejs
 
 **Setup the Google Cloud project and import the creadential file in the code**
+
+To start the app run : 
+
+npm install
+
+node index.js in root directory
